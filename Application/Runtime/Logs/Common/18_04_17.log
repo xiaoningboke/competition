@@ -2182,3 +2182,51 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
 ERR: 无法加载模块:Images
 
+[ 2018-04-17T16:40:21+08:00 ] ::1 /competition/index.php/Home/index/exitfrom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+ERR: 无法加载模块:Home
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-04-17T16:40:31+08:00 ] ::1 /competition/index.php/Home/index/exitfrom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+ERR: 无法加载模块:Home
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-04-17T16:40:45+08:00 ] ::1 /competition/index.php/Home/index/exitfrom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Home
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-04-17T17:07:57+08:00 ] ::1 /competition/index.php/Home/index/exitfrom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:Home
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-04-17T17:08:01+08:00 ] ::1 /competition/index.php/Home/index/exitfrom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载模块:Home
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-04-17T17:08:32+08:00 ] ::1 /competition/index.php/Home/index/exitfrom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Home
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\phpStudy\PHPTutorial\WWW\competition\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+

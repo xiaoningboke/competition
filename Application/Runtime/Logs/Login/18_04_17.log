@@ -14267,3 +14267,58 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
 
+[ 2018-04-17T16:35:57+08:00 ] ::1 /competition/index.php/Login/Index/verify.html?time=?time=?time=?time=?time=?time=?time=?time=?time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-04-17T16:35:58+08:00 ] ::1 /competition/index.php/Login/Index/verify.html?time=?time=?time=?time=?time=?time=?time=?time=?time=?time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-04-17T16:35:59+08:00 ] ::1 /competition/index.php/Login/Index/verify.html?time=?time=?time=?time=?time=?time=?time=?time=?time=?time=?time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2018-04-17T16:35:59+08:00 ] ::1 /competition/index.php/Login/Index/verify.html?time=?time=?time=?time=?time=?time=?time=?time=?time=?time=?time=?time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-04-17T16:36:05+08:00 ] ::1 /competition/index.php/Login/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0726s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `admin` WHERE `number` = '201601070413' LIMIT 1   [ RunTime:0.0277s ]
+

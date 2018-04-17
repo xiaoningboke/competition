@@ -1,0 +1,74 @@
+<include file="PUBLIC/apply_muban.html" title="申请竞赛" />
+
+<body>
+<div class="type_style">
+ <div class="type_title" style="text-align:center;">申请竞赛</div>
+  <div class="type_content">
+  <form action="{:U('Home/index/shenqing')}" method="post" class="form form-horizontal" id="form-user-add" style="margin-left:18%">
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>名称：</label>
+      <div class="formControls ">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="name">
+      </div>
+    </div>
+     <script src="__PUBLIC__/js/date.js"></script>
+      <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>开始时间：</label>
+      <div class="formControls ">
+      <input name="starttime" type="text" value="" size="20" readonly onClick="showcalendar(event,this);" onFocus="showcalendar(event, this);if(this.value=='0000-00-00')this.value=''" placeholder="请选择开始日期">
+      </div>
+      </div>
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>结束时间：</label>
+      <div class="formControls ">
+      <input name="endtime" type="text" value="" size="20" readonly onClick="showcalendar(event,this);" onFocus="showcalendar(event, this);if(this.value=='0000-00-00')this.value=''" placeholder="请选择结束日期">
+      </div>
+      </div>
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>级别：</label>
+      <div class="formControls ">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="grade">
+      </div>
+    </div>
+
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>主办单位：</label>
+      <div class="formControls ">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="company">
+      </div>
+    </div>
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>地点：</label>
+      <div class="formControls ">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="place">
+      </div>
+    </div>
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>所需设备：</label>
+      <div class="formControls ">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="equipment">
+      </div>
+    </div>
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>经费：</label>
+      <div class="formControls ">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="funds">
+      </div>
+    </div>
+    <div class="Operate_cont clearfix">
+      <label class="form-label"><span class="c-red">*</span>申请说明：</label>
+      <div class="formControls ">
+
+      </div>
+    </div>
+    <div class="" style="margin-left:130px">
+      <input class="btn btn-primary radius" type="submit" value="提交">
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+</div>
+<include file="PUBLIC/apply_js.html"/>
+</body>
+</html>

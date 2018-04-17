@@ -1,0 +1,138 @@
+﻿<!-- 首页 -->
+<include file="PUBLIC/header.html" title="首页" />
+<body>
+<div class="navbar navbar-default" id="navbar">
+	<script type="text/javascript">
+        try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+	</script>
+	<div class="navbar-container" id="navbar-container">
+		<div class="navbar-header pull-left">
+			<img src="__PUBLIC__/images/潍坊科技学院校徽.png" height="75" width="500" />
+		</div>
+		<!-- /.navbar-header -->
+		<div class="navbar-header operating pull-left">
+		</div>
+		<div class="navbar-header pull-right" role="navigation">
+			<ul class="nav ace-nav">
+				<li class="light-blue"> <a data-toggle="dropdown" href="#" class="dropdown-toggle"> <span class="time"><em id="time"></em></span><span class="user-info"><small>欢迎光临,</small>超级管理员</span> <i class="icon-caret-down"></i> </a>
+					<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+						<li><a href="javascript:void(0)" name="admin_info.html" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:ovid(0)" id="Exit_system"><i class="icon-off"></i>退出</a></li>
+					</ul> </li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="main-container" id="main-container">
+	<script type="text/javascript">
+        try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+	</script>
+	<div class="main-container-inner">
+		<a class="menu-toggler" id="menu-toggler" href="#"> <span class="menu-text"></span> </a>
+		<div class="sidebar" id="sidebar">
+			<script type="text/javascript">
+                try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+			</script>
+			<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+				<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+					<span style="color: #585858">超级管理员</span>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span style="color: #585858">管理员</span>
+				</div>
+				<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+					<span class="btn btn-success"></span>
+					<span class="btn btn-info"></span>
+					<span class="btn btn-warning"></span>
+					<span class="btn btn-danger"></span>
+				</div>
+			</div>
+			<div id="menu_style" class="menu_style">
+				<ul class="nav nav-list" id="nav_list">
+					<li class="home"><a href="javascript:void(0)" name="home.html" class="iframeurl" title=""><i class="icon-list"></i><span class="menu-text"> 系统首页 </span></a></li>
+					<li><a href="#" class="dropdown-toggle"><i class="icon-list"></i><span class="menu-text"> 注册页面 </span><b class="arrow icon-angle-down"></b></a>
+						<ul class="submenu">
+							<li class="home"><a href="javascript:void(0)" name="__URL__/register.html" title="老师注册" class="iframeurl"><i class="icon-double-angle-right"></i>老师注册</a></li>
+							<li class="home"><a href="javascript:void(0)" name="__URL__/exitfrom.html" title="信息修改" class="iframeurl"><i class="icon-double-angle-right"></i>信息修改</a></li>
+							<li class="home"><a href="javascript:void(0)" name="__URL__/article_add.html" title="申请竞赛" class="iframeurl"><i class="icon-double-angle-right"></i>申请竞赛</a></li>
+
+						</ul>
+          </li>
+			</div>
+			<script type="text/javascript">
+                $("#menu_style").niceScroll({
+                    cursorcolor:"#888888",
+                    cursoropacitymax:1,
+                    touchbehavior:false,
+                    cursorwidth:"5px",
+                    cursorborder:"0",
+                    cursorborderradius:"5px"
+                });
+			</script>
+			<div class="sidebar-collapse" id="sidebar-collapse">
+				<i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+			</div>
+			<script type="text/javascript">
+                try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+			</script>
+		</div>
+		<div class="main-content">
+			<script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+			</script>
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li> <i class="icon-home home-icon"></i> <a href="index.html">首页</a> </li>
+					<li class="active"><span class="Current_page iframeurl"></span></li>
+					<li class="active" id="parentIframe"><span class="parentIframe iframeurl"></span></li>
+					<li class="active" id="parentIfour"><span class="parentIfour iframeurl"></span></li>
+				</ul>
+			</div>
+			<iframe id="iframe" style="border:0; width:100%; background-color:#FFF;" name="iframe" frameborder="0" src="home.html"> </iframe>
+			<!-- /.page-content -->
+		</div>
+		<!-- /.main-content -->
+		<div class="ace-settings-container" id="ace-settings-container">
+			<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+				<i class="icon-cog bigger-150"></i>
+			</div>
+			<div class="ace-settings-box" id="ace-settings-box">
+				<div>
+					<div class="pull-left">
+						<select id="skin-colorpicker" class="hide"> <option data-skin="default" value="#438EB9">#438EB9</option> <option data-skin="skin-1" value="#222A2D">#222A2D</option> <option data-skin="skin-2" value="#C6487E">#C6487E</option> <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option> </select>
+					</div>
+					<span>&nbsp; 选择皮肤</span>
+				</div>
+				<div>
+					<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar" />
+					<label class="lbl" for="ace-settings-sidebar"> 固定滑动条</label>
+				</div>
+				<div>
+					<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" />
+					<label class="lbl" for="ace-settings-rtl">切换到左边</label>
+				</div>
+				<div>
+					<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container" />
+					<label class="lbl" for="ace-settings-add-container"> 切换窄屏 <b></b> </label>
+				</div>
+			</div>
+		</div>
+		<!-- /#ace-settings-container -->
+	</div>
+	<!-- /.main-container-inner -->
+</div>
+<!--底部样式-->
+<div class="footer_style" id="footerstyle">
+	<script type="text/javascript">try{ace.settings.check('footerstyle' , 'fixed')}catch(e){}</script>
+	<p class="l_f">版权所有：南京四美软件 苏ICP备11011739号</p>
+	<p class="r_f">地址：南京市鼓楼区阅江楼街道公共路64号 邮编：210011 技术支持：XXXX</p>
+</div>
+<!--修改密码样式-->
+<div class="change_Pass_style" id="change_Pass">
+	<ul class="xg_style">
+		<li><label class="label_name">原&nbsp;&nbsp;密&nbsp;码</label><input name="原密码" type="password" class="" id="password" /></li>
+		<li><label class="label_name">新&nbsp;&nbsp;密&nbsp;码</label><input name="新密码" type="password" class="" id="Nes_pas" /></li>
+		<li><label class="label_name">确认密码</label><input name="再次确认密码" type="password" class="" id="c_mew_pas" /></li>
+	</ul>
+</div>
+</body>
+</html>
