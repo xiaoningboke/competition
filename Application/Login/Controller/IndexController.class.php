@@ -60,7 +60,7 @@ class IndexController extends Controller {
                 }
                 $this->judgeJump();
             }else{
-                $this->error('账号或秘密错误',U('Login/Index/index'));
+                $this->error('账号或密码错误',U('Login/Index/index'));
             }
         }
     }
