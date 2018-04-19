@@ -40,4 +40,16 @@ class AdminModel extends Model
         $f = $admin->where("id=$id")->save($data);
         return $f;
     }
+    /**
+     * 修改密码
+     * @param  [type] $password [description]
+     * @return [type]           [description]
+     */
+    public function exitpassword($password)
+    {
+       $admin=M('admin');
+       $id = session('user')[id];
+       $f = $admin->where("id=$id")->setField('password',$password);
+       return $f;
+    }
 }

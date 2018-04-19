@@ -1,0 +1,18 @@
+[ 2018-04-19T19:26:47+08:00 ] ::1 /competition/index.php/images/arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-19T19:27:02+08:00 ] ::1 /competition/index.php/images/arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Images
+
+[ 2018-04-19T19:30:38+08:00 ] ::1 /competition/index.php/images/arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Images
+

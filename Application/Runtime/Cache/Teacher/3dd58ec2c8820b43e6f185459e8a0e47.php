@@ -113,11 +113,12 @@ function save_info(){
               "name":jsonCon.name,
               "technical":jsonCon.technical,
               "email":jsonCon.email,
-              "phone":jsonCon.phone
+              "phone":jsonCon.phone,
+              "qq":jsonCon.qq
             },
              //dataType: "json",
              success: function(data){
-         layer.alert('修改成功！',{
+         layer.alert(data,{
                title: '提示框',
          icon:1,
         });
@@ -181,14 +182,32 @@ function save_info(){
        return false;
         }
      else{
-        layer.alert('修改成功！',{
-               title: '提示框',
-      icon:1,
-        });
+         var pwd = {
+          "password":$("#password").val(),
+          "newpassword":$("#c_mew_pas").val()
+         }
         layer.close(index);
+        tjpwd(pwd);
+
       }
   }
     });
+    }
+      function tjpwd(pwd){
+         $.ajax({
+             type: "POST",
+             url: "<?php echo U('Teacher/Index/exitpassword');?>",
+             data: pwd,
+             //dataType: "json",
+             success: function(data){
+         layer.alert(data,{
+               title: '提示框',
+         icon:1,
+        });
+
+
+                      }
+         });
     }
 </script>
 <script>

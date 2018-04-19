@@ -32,8 +32,14 @@ class IndexController extends CommonController {
         $data['technical'] = $_POST["technical"];
         $data['email'] = $_POST["email"];
         $data['phone'] = $_POST["phone"];
+        $data['qq'] = $_POST["qq"];
         $admin = new AdminModel();
         $f = $admin->exitInformation($data);
+        if($f>0){
+          echo "修改成功";
+        }else{
+          echo "修改失败";
+        }
     }
      /**
      * 申请竞赛页面展示
@@ -70,8 +76,27 @@ class IndexController extends CommonController {
           $this->display();
         }
      }
-
-
+     /**
+      * 接收修改密码
+      * @return [type] [description]
+      */
+     public function exitpassword()
+     {
+       $password = $_POST["password"];
+       $newpassword = md5($_POST["newpassword"]);
+       $admin = new AdminModel();
+       $oldpassword = $admin->findUser()["password"];
+       if(md5($password)==$oldpassword){
+          $f = $admin->exitpassword($newpassword);
+          if($f>0){
+           echo "修改成功";
+          }else{
+            echo "修改失败";
+          }
+       }else {
+         echo "原密码错误";
+       }
+     }
     /**
      * 富文本编辑器
      * @return [type] [description]
